@@ -4,15 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Main6Test
-{
+public class Main6Test {
     @Test
-    void test01()
-    {
-        // TODO 6.2: Oprav test
+    void test01() {
         assertEquals(
-                123,
-                Main6.idOfBestTeacher("KIKM",2024)
+                244417,
+                Main6.idOfBestTeacher("KIKM", 2024)
         );
     }
 }

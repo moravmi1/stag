@@ -2,8 +2,7 @@ package pro1.apiDataModel;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Action
-{
+public class Action {
     @SerializedName("obsazeni")
     public int personsCount;
     @SerializedName("nazev")
@@ -12,4 +11,5 @@ public class Action
     public String department;
     @SerializedName("ucitIdno")
     public long teacherId;
+    public char[] room;
 }
